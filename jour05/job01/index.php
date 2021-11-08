@@ -8,13 +8,14 @@
 </head>
 <body>
 <?php
-$hello = "Hello LaPlateforme";
+$coucou = "Hello LaPlateforme";
 $couleur = "black";
-function afficher($hello, $couleur) {
-print ("<font color=\"$couleur\"> $hello </font>");
+function hello($coucou, $couleur) 
+{
+print ("<font color=\"$couleur\"> $coucou</font>");
 }
 
-afficher($hello, $couleur='black')
+hello($coucou, $couleur='black')
 ?>
     
 </body>
